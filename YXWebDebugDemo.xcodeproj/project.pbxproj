@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76F3F6141CF5361D0080B595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6131CF5361D0080B595 /* main.m */; };
+		76F3F6171CF5361D0080B595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6161CF5361D0080B595 /* AppDelegate.m */; };
+		76F3F61A1CF5361D0080B595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6191CF5361D0080B595 /* ViewController.m */; };
+		76F3F61D1CF5361D0080B595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F3F61B1CF5361D0080B595 /* Main.storyboard */; };
+		76F3F61F1CF5361D0080B595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F3F61E1CF5361D0080B595 /* Assets.xcassets */; };
+		76F3F6221CF5361D0080B595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F3F6201CF5361D0080B595 /* LaunchScreen.storyboard */; };
+		76F3F62D1CF5361D0080B595 /* YXWebDebugDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F62C1CF5361D0080B595 /* YXWebDebugDemoTests.m */; };
+		76F3F6381CF5361D0080B595 /* YXWebDebugDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6371CF5361D0080B595 /* YXWebDebugDemoUITests.m */; };
+		76F3F6471CF536450080B595 /* YXBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6461CF536450080B595 /* YXBaseWebViewController.m */; };
+		76F3F6641CF556790080B595 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F65D1CF556790080B595 /* WebViewJavascriptBridge.m */; };
+		76F3F6651CF556790080B595 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F65F1CF556790080B595 /* WebViewJavascriptBridge_JS.m */; };
+		76F3F6661CF556790080B595 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6611CF556790080B595 /* WebViewJavascriptBridgeBase.m */; };
+		76F3F6671CF556790080B595 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6631CF556790080B595 /* WKWebViewJavascriptBridge.m */; };
+		76F3F66E1CF57A7B0080B595 /* YXWebDebugMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F66D1CF57A7B0080B595 /* YXWebDebugMessage.m */; };
+		76F3F6711CF582CE0080B595 /* YXWebDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6701CF582CE0080B595 /* YXWebDebugManager.m */; };
+		76F3F6781CF5864F0080B595 /* YXWebDebugConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6771CF5864F0080B595 /* YXWebDebugConsoleViewController.m */; };
+		76F3F67B1CF5866C0080B595 /* YXWebDebugConsoleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F67A1CF5866C0080B595 /* YXWebDebugConsoleCell.m */; };
+		76F3F67E1CF588540080B595 /* YXWebDebugInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F67D1CF588540080B595 /* YXWebDebugInputView.m */; };
+		76F3F6821CF58A710080B595 /* UIWebView+YXWebDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3F6811CF58A710080B595 /* UIWebView+YXWebDebug.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76F3F6291CF5361D0080B595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F3F6071CF5361D0080B595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F3F60E1CF5361D0080B595;
+			remoteInfo = YXWebDebugDemo;
+		};
+		76F3F6341CF5361D0080B595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F3F6071CF5361D0080B595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F3F60E1CF5361D0080B595;
+			remoteInfo = YXWebDebugDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76F3F60F1CF5361D0080B595 /* YXWebDebugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXWebDebugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F3F6131CF5361D0080B595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76F3F6151CF5361D0080B595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76F3F6161CF5361D0080B595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76F3F6181CF5361D0080B595 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76F3F6191CF5361D0080B595 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76F3F61C1CF5361D0080B595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76F3F61E1CF5361D0080B595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F3F6211CF5361D0080B595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76F3F6231CF5361D0080B595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F3F6281CF5361D0080B595 /* YXWebDebugDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXWebDebugDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F3F62C1CF5361D0080B595 /* YXWebDebugDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXWebDebugDemoTests.m; sourceTree = "<group>"; };
+		76F3F62E1CF5361D0080B595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F3F6331CF5361D0080B595 /* YXWebDebugDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXWebDebugDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F3F6371CF5361D0080B595 /* YXWebDebugDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXWebDebugDemoUITests.m; sourceTree = "<group>"; };
+		76F3F6391CF5361D0080B595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F3F6451CF536450080B595 /* YXBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseWebViewController.h; sourceTree = "<group>"; };
+		76F3F6461CF536450080B595 /* YXBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseWebViewController.m; sourceTree = "<group>"; };
+		76F3F65C1CF556790080B595 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		76F3F65D1CF556790080B595 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		76F3F65E1CF556790080B595 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		76F3F65F1CF556790080B595 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		76F3F6601CF556790080B595 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		76F3F6611CF556790080B595 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		76F3F6621CF556790080B595 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		76F3F6631CF556790080B595 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		76F3F66C1CF57A7B0080B595 /* YXWebDebugMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWebDebugMessage.h; sourceTree = "<group>"; };
+		76F3F66D1CF57A7B0080B595 /* YXWebDebugMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWebDebugMessage.m; sourceTree = "<group>"; };
+		76F3F66F1CF582CE0080B595 /* YXWebDebugManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWebDebugManager.h; sourceTree = "<group>"; };
+		76F3F6701CF582CE0080B595 /* YXWebDebugManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWebDebugManager.m; sourceTree = "<group>"; };
+		76F3F6761CF5864F0080B595 /* YXWebDebugConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWebDebugConsoleViewController.h; sourceTree = "<group>"; };
+		76F3F6771CF5864F0080B595 /* YXWebDebugConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWebDebugConsoleViewController.m; sourceTree = "<group>"; };
+		76F3F6791CF5866C0080B595 /* YXWebDebugConsoleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWebDebugConsoleCell.h; sourceTree = "<group>"; };
+		76F3F67A1CF5866C0080B595 /* YXWebDebugConsoleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWebDebugConsoleCell.m; sourceTree = "<group>"; };
+		76F3F67C1CF588540080B595 /* YXWebDebugInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWebDebugInputView.h; sourceTree = "<group>"; };
+		76F3F67D1CF588540080B595 /* YXWebDebugInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWebDebugInputView.m; sourceTree = "<group>"; };
+		76F3F6801CF58A710080B595 /* UIWebView+YXWebDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+YXWebDebug.h"; sourceTree = "<group>"; };
+		76F3F6811CF58A710080B595 /* UIWebView+YXWebDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+YXWebDebug.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F3F60C1CF5361D0080B595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F3F6251CF5361D0080B595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F3F6301CF5361D0080B595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76F3F6061CF5361D0080B595 = {
+			isa = PBXGroup;
+			children = (
+				76F3F6111CF5361D0080B595 /* YXWebDebugDemo */,
+				76F3F62B1CF5361D0080B595 /* YXWebDebugDemoTests */,
+				76F3F6361CF5361D0080B595 /* YXWebDebugDemoUITests */,
+				76F3F6101CF5361D0080B595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76F3F6101CF5361D0080B595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F60F1CF5361D0080B595 /* YXWebDebugDemo.app */,
+				76F3F6281CF5361D0080B595 /* YXWebDebugDemoTests.xctest */,
+				76F3F6331CF5361D0080B595 /* YXWebDebugDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76F3F6111CF5361D0080B595 /* YXWebDebugDemo */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F6681CF567510080B595 /* WebDebugConsole */,
+				76F3F65B1CF556790080B595 /* WebViewJavascriptBridge */,
+				76F3F6151CF5361D0080B595 /* AppDelegate.h */,
+				76F3F6161CF5361D0080B595 /* AppDelegate.m */,
+				76F3F6181CF5361D0080B595 /* ViewController.h */,
+				76F3F6191CF5361D0080B595 /* ViewController.m */,
+				76F3F61B1CF5361D0080B595 /* Main.storyboard */,
+				76F3F61E1CF5361D0080B595 /* Assets.xcassets */,
+				76F3F6201CF5361D0080B595 /* LaunchScreen.storyboard */,
+				76F3F6231CF5361D0080B595 /* Info.plist */,
+				76F3F6121CF5361D0080B595 /* Supporting Files */,
+				76F3F6451CF536450080B595 /* YXBaseWebViewController.h */,
+				76F3F6461CF536450080B595 /* YXBaseWebViewController.m */,
+			);
+			path = YXWebDebugDemo;
+			sourceTree = "<group>";
+		};
+		76F3F6121CF5361D0080B595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F6131CF5361D0080B595 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76F3F62B1CF5361D0080B595 /* YXWebDebugDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F62C1CF5361D0080B595 /* YXWebDebugDemoTests.m */,
+				76F3F62E1CF5361D0080B595 /* Info.plist */,
+			);
+			path = YXWebDebugDemoTests;
+			sourceTree = "<group>";
+		};
+		76F3F6361CF5361D0080B595 /* YXWebDebugDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F6371CF5361D0080B595 /* YXWebDebugDemoUITests.m */,
+				76F3F6391CF5361D0080B595 /* Info.plist */,
+			);
+			path = YXWebDebugDemoUITests;
+			sourceTree = "<group>";
+		};
+		76F3F65B1CF556790080B595 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F65C1CF556790080B595 /* WebViewJavascriptBridge.h */,
+				76F3F65D1CF556790080B595 /* WebViewJavascriptBridge.m */,
+				76F3F65E1CF556790080B595 /* WebViewJavascriptBridge_JS.h */,
+				76F3F65F1CF556790080B595 /* WebViewJavascriptBridge_JS.m */,
+				76F3F6601CF556790080B595 /* WebViewJavascriptBridgeBase.h */,
+				76F3F6611CF556790080B595 /* WebViewJavascriptBridgeBase.m */,
+				76F3F6621CF556790080B595 /* WKWebViewJavascriptBridge.h */,
+				76F3F6631CF556790080B595 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		76F3F6681CF567510080B595 /* WebDebugConsole */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F67F1CF58A530080B595 /* Category */,
+				76F3F6751CF585B30080B595 /* View */,
+				76F3F6741CF585AA0080B595 /* ViewController */,
+				76F3F6731CF585910080B595 /* Model */,
+				76F3F6721CF585840080B595 /* Manager */,
+			);
+			path = WebDebugConsole;
+			sourceTree = "<group>";
+		};
+		76F3F6721CF585840080B595 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F66F1CF582CE0080B595 /* YXWebDebugManager.h */,
+				76F3F6701CF582CE0080B595 /* YXWebDebugManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		76F3F6731CF585910080B595 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F66C1CF57A7B0080B595 /* YXWebDebugMessage.h */,
+				76F3F66D1CF57A7B0080B595 /* YXWebDebugMessage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		76F3F6741CF585AA0080B595 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F6761CF5864F0080B595 /* YXWebDebugConsoleViewController.h */,
+				76F3F6771CF5864F0080B595 /* YXWebDebugConsoleViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		76F3F6751CF585B30080B595 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F6791CF5866C0080B595 /* YXWebDebugConsoleCell.h */,
+				76F3F67A1CF5866C0080B595 /* YXWebDebugConsoleCell.m */,
+				76F3F67C1CF588540080B595 /* YXWebDebugInputView.h */,
+				76F3F67D1CF588540080B595 /* YXWebDebugInputView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		76F3F67F1CF58A530080B595 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				76F3F6801CF58A710080B595 /* UIWebView+YXWebDebug.h */,
+				76F3F6811CF58A710080B595 /* UIWebView+YXWebDebug.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76F3F60E1CF5361D0080B595 /* YXWebDebugDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F3F63C1CF5361D0080B595 /* Build configuration list for PBXNativeTarget "YXWebDebugDemo" */;
+			buildPhases = (
+				76F3F60B1CF5361D0080B595 /* Sources */,
+				76F3F60C1CF5361D0080B595 /* Frameworks */,
+				76F3F60D1CF5361D0080B595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXWebDebugDemo;
+			productName = YXWebDebugDemo;
+			productReference = 76F3F60F1CF5361D0080B595 /* YXWebDebugDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76F3F6271CF5361D0080B595 /* YXWebDebugDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F3F63F1CF5361D0080B595 /* Build configuration list for PBXNativeTarget "YXWebDebugDemoTests" */;
+			buildPhases = (
+				76F3F6241CF5361D0080B595 /* Sources */,
+				76F3F6251CF5361D0080B595 /* Frameworks */,
+				76F3F6261CF5361D0080B595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F3F62A1CF5361D0080B595 /* PBXTargetDependency */,
+			);
+			name = YXWebDebugDemoTests;
+			productName = YXWebDebugDemoTests;
+			productReference = 76F3F6281CF5361D0080B595 /* YXWebDebugDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76F3F6321CF5361D0080B595 /* YXWebDebugDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F3F6421CF5361D0080B595 /* Build configuration list for PBXNativeTarget "YXWebDebugDemoUITests" */;
+			buildPhases = (
+				76F3F62F1CF5361D0080B595 /* Sources */,
+				76F3F6301CF5361D0080B595 /* Frameworks */,
+				76F3F6311CF5361D0080B595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F3F6351CF5361D0080B595 /* PBXTargetDependency */,
+			);
+			name = YXWebDebugDemoUITests;
+			productName = YXWebDebugDemoUITests;
+			productReference = 76F3F6331CF5361D0080B595 /* YXWebDebugDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F3F6071CF5361D0080B595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yangxu;
+				TargetAttributes = {
+					76F3F60E1CF5361D0080B595 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					76F3F6271CF5361D0080B595 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 76F3F60E1CF5361D0080B595;
+					};
+					76F3F6321CF5361D0080B595 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 76F3F60E1CF5361D0080B595;
+					};
+				};
+			};
+			buildConfigurationList = 76F3F60A1CF5361D0080B595 /* Build configuration list for PBXProject "YXWebDebugDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F3F6061CF5361D0080B595;
+			productRefGroup = 76F3F6101CF5361D0080B595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76F3F60E1CF5361D0080B595 /* YXWebDebugDemo */,
+				76F3F6271CF5361D0080B595 /* YXWebDebugDemoTests */,
+				76F3F6321CF5361D0080B595 /* YXWebDebugDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76F3F60D1CF5361D0080B595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F3F6221CF5361D0080B595 /* LaunchScreen.storyboard in Resources */,
+				76F3F61F1CF5361D0080B595 /* Assets.xcassets in Resources */,
+				76F3F61D1CF5361D0080B595 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F3F6261CF5361D0080B595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F3F6311CF5361D0080B595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F3F60B1CF5361D0080B595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F3F61A1CF5361D0080B595 /* ViewController.m in Sources */,
+				76F3F6711CF582CE0080B595 /* YXWebDebugManager.m in Sources */,
+				76F3F6471CF536450080B595 /* YXBaseWebViewController.m in Sources */,
+				76F3F6651CF556790080B595 /* WebViewJavascriptBridge_JS.m in Sources */,
+				76F3F6171CF5361D0080B595 /* AppDelegate.m in Sources */,
+				76F3F67E1CF588540080B595 /* YXWebDebugInputView.m in Sources */,
+				76F3F66E1CF57A7B0080B595 /* YXWebDebugMessage.m in Sources */,
+				76F3F6821CF58A710080B595 /* UIWebView+YXWebDebug.m in Sources */,
+				76F3F6661CF556790080B595 /* WebViewJavascriptBridgeBase.m in Sources */,
+				76F3F6671CF556790080B595 /* WKWebViewJavascriptBridge.m in Sources */,
+				76F3F6141CF5361D0080B595 /* main.m in Sources */,
+				76F3F6641CF556790080B595 /* WebViewJavascriptBridge.m in Sources */,
+				76F3F6781CF5864F0080B595 /* YXWebDebugConsoleViewController.m in Sources */,
+				76F3F67B1CF5866C0080B595 /* YXWebDebugConsoleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F3F6241CF5361D0080B595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F3F62D1CF5361D0080B595 /* YXWebDebugDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F3F62F1CF5361D0080B595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F3F6381CF5361D0080B595 /* YXWebDebugDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76F3F62A1CF5361D0080B595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F3F60E1CF5361D0080B595 /* YXWebDebugDemo */;
+			targetProxy = 76F3F6291CF5361D0080B595 /* PBXContainerItemProxy */;
+		};
+		76F3F6351CF5361D0080B595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F3F60E1CF5361D0080B595 /* YXWebDebugDemo */;
+			targetProxy = 76F3F6341CF5361D0080B595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76F3F61B1CF5361D0080B595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F3F61C1CF5361D0080B595 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76F3F6201CF5361D0080B595 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F3F6211CF5361D0080B595 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76F3F63A1CF5361D0080B595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76F3F63B1CF5361D0080B595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F3F63D1CF5361D0080B595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXWebDebugDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdfdsdf.YXWebDebugDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76F3F63E1CF5361D0080B595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXWebDebugDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdfdsdf.YXWebDebugDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76F3F6401CF5361D0080B595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXWebDebugDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdfdsdf.YXWebDebugDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXWebDebugDemo.app/YXWebDebugDemo";
+			};
+			name = Debug;
+		};
+		76F3F6411CF5361D0080B595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXWebDebugDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdfdsdf.YXWebDebugDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXWebDebugDemo.app/YXWebDebugDemo";
+			};
+			name = Release;
+		};
+		76F3F6431CF5361D0080B595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXWebDebugDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdfdsdf.YXWebDebugDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXWebDebugDemo;
+			};
+			name = Debug;
+		};
+		76F3F6441CF5361D0080B595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXWebDebugDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdfdsdf.YXWebDebugDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXWebDebugDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F3F60A1CF5361D0080B595 /* Build configuration list for PBXProject "YXWebDebugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F3F63A1CF5361D0080B595 /* Debug */,
+				76F3F63B1CF5361D0080B595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F3F63C1CF5361D0080B595 /* Build configuration list for PBXNativeTarget "YXWebDebugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F3F63D1CF5361D0080B595 /* Debug */,
+				76F3F63E1CF5361D0080B595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76F3F63F1CF5361D0080B595 /* Build configuration list for PBXNativeTarget "YXWebDebugDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F3F6401CF5361D0080B595 /* Debug */,
+				76F3F6411CF5361D0080B595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76F3F6421CF5361D0080B595 /* Build configuration list for PBXNativeTarget "YXWebDebugDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F3F6431CF5361D0080B595 /* Debug */,
+				76F3F6441CF5361D0080B595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F3F6071CF5361D0080B595 /* Project object */;
+}
